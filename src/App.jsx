@@ -10,10 +10,8 @@ function App() {
   return (
     <>
     
-      {/* <Main/> */}
       <Routes>
         <Route path='/' element={<Main/>} />
-        {/* <Route path='/:cell' element={<Info/>}/> */}
       </Routes>
     
     </>

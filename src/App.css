@@ -1,4 +1,3 @@
-/* Global Styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -47,7 +46,7 @@ body {
 }
 
 .searchbar input:focus {
-  border-color: orange; /* Highlight input on focus */
+  border-color: orange; 
   outline: none;
 }
 
@@ -64,7 +63,7 @@ body {
 }
 
 .searchbar button:hover {
-  background-color: darkorange; /* Darker shade on hover */
+  background-color: darkorange; 
 }
 
 .character {
@@ -79,7 +78,7 @@ body {
 .character > div {
   background-color: #1a1a1a;
   border-radius: 10px;
-  padding: 20px; /* Increased padding for better spacing */
+  padding: 20px; 
   text-align: center;
   color: white;
   display: flex;
@@ -92,35 +91,35 @@ body {
 }
 
 .character > div:hover {
-  transform: translateY(-5px); /* Slight lift on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  transform: translateY(-5px); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .character img {
   border-radius: 50%;
-  width: 120px; /* Slightly larger image */
+  width: 120px; 
   height: 120px;
-  margin-bottom: 15px; /* Increased margin for better spacing */
+  margin-bottom: 15px; 
 }
 
 .character p {
   margin: 10px 0;
-  font-size: 20px; /* Increased font size for better readability */
+  font-size: 20px; 
 }
 
 .character button {
   background-color: orange;
   color: white;
   border: none;
-  padding: 12px 24px; /* Increased padding for better button size */
+  padding: 12px 24px; 
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+  transition: background-color 0.3s ease; 
 }
 
 .character button:hover {
-  background-color: darkorange; /* Darker shade on hover */
+  background-color: darkorange;
 }
 
 .modal-overlay {
@@ -138,45 +137,45 @@ body {
 
 .modal-content {
   background-color: #fff;
-  padding: 30px; /* Increased padding for better spacing */
-  border-radius: 12px; /* Slightly rounded corners */
+  padding: 30px; 
+  border-radius: 12px; 
   max-width: 500px;
   width: 100%;
   text-align: center;
   position: relative;
   color: #333;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .close {
   position: absolute;
-  top: 15px; /* Adjusted position */
+  top: 15px; 
   right: 15px;
   font-size: 24px;
   cursor: pointer;
-  color: #333; /* Consistent color */
-  transition: color 0.3s ease; /* Smooth hover effect */
+  color: #333;
+  transition: color 0.3s ease; 
 }
 
 .close:hover {
-  color: orange; /* Highlight on hover */
+  color: orange;
 }
 
 .modal-content img {
   border-radius: 50%;
-  margin-bottom: 20px; /* Increased margin for better spacing */
-  width: 120px; /* Slightly larger image */
+  margin-bottom: 20px; 
+  width: 120px;
   height: 120px;
 }
 
 .modal-content h2 {
-  margin-bottom: 15px; /* Increased margin for better spacing */
-  font-size: 24px; /* Larger font size for better readability */
+  margin-bottom: 15px;
+  font-size: 24px; 
 }
 
 .modal-content p {
   margin: 10px 0;
-  font-size: 18px; /* Adjusted font size */
+  font-size: 18px; 
 }
 
 .filter-menu {
@@ -194,14 +193,14 @@ body {
 .filter-menu button {
   background-color: #fff;
   border: none;
-  padding: 12px; /* Increased padding for better button size */
+  padding: 12px; 
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+  transition: background-color 0.3s ease; 
 }
 
 .filter-menu button:hover {
-  background-color: #f0f0f0; /* Light hover effect */
+  background-color: #f0f0f0;
 }
 
 .filter-options {
@@ -225,9 +224,9 @@ body {
 }
 
 .filter-options li {
-  padding: 12px; /* Increased padding for better spacing */
+  padding: 12px; 
   border-bottom: 1px solid #ddd;
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+  transition: background-color 0.3s ease; 
 }
 
 .filter-options li:last-child {
@@ -235,130 +234,128 @@ body {
 }
 
 .filter-options li:hover {
-  background-color: #f0f0f0; /* Light hover effect */
+  background-color: #f0f0f0; 
 }
 
 .filter-options button {
   background-color: #fff;
   border: none;
-  padding: 12px; /* Increased padding for better button size */
+  padding: 12px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+  transition: background-color 0.3s ease; 
 }
 
 .filter-options button:hover {
-  background-color: #f0f0f0; /* Light hover effect */
+  background-color: #f0f0f0;
 }
 
-/* Light Mode (Default) */
 .light-mode {
   background-color: #f9f9f9;
   color: #333;
 }
 
-/* Dark Mode */
 .dark-mode {
   background-color: #1a1a1a;
   color: #fff;
 }
 
 .dark-mode .container {
-  background-color: #fff; /* Consistent background color */
-  color: #333; /* Consistent text color */
+  background-color: #fff; 
+  color: #333; 
 }
 
 .dark-mode .searchbar input {
-  background-color: #e7e7e7; /* Consistent input background */
-  color: #333; /* Consistent text color */
-  border: 1px solid #ccc; /* Consistent border */
+  background-color: #e7e7e7;
+  color: #333;
+  border: 1px solid #ccc; 
 }
 
 .dark-mode .searchbar button {
-  background-color: orange; /* Consistent button color */
-  color: white; /* Consistent text color */
+  background-color: orange; 
+  color: white; 
 }
 
 .dark-mode .filter-menu button {
-  background-color: #fff; /* Consistent button color */
-  color: #333; /* Consistent text color */
+  background-color: #fff; 
+  color: #333; 
 }
 
 .dark-mode .filter-options {
-  background-color: #fff; /* Consistent background color */
-  color: #333; /* Consistent text color */
+  background-color: #fff;
+  color: #333; 
 }
 
 .dark-mode .filter-options button {
-  background-color: #fff; /* Consistent button color */
-  color: #333; /* Consistent text color */
+  background-color: #fff;
+  color: #333; 
 }
 
 .dark-mode .character > div {
-  background-color: #fff; /* Consistent background color */
-  color: #333; /* Consistent text color */
-  border: 2px solid #555; /* Consistent border */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Consistent shadow */
+  background-color: #fff;
+  color: #333; 
+  border: 2px solid #555;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .dark-mode .modal-content {
-  background-color: #fff; /* Consistent background color */
-  color: #333; /* Consistent text color */
+  background-color: #fff; 
+  color: #333; 
 }
 
 .dark-mode .close {
-  color: #333; /* Consistent close button color */
+  color: #333; 
 }
 
 .dark-mode .close:hover {
-  color: orange; /* Consistent hover color */
+  color: orange;
 }
 
-/* Additional Improvements for Better Visual Hierarchy */
+
 .character > div {
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smoother transitions */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .character > div:hover {
-  transform: translateY(-5px); /* Slight lift on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  transform: translateY(-5px); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
 }
 
 .modal-content {
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smoother transitions */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .modal-content:hover {
-  transform: scale(1.02); /* Slight scale on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  transform: scale(1.02); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
 }
 
 .filter-menu button {
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smoother transitions */
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 .filter-menu button:hover {
-  background-color: #f0f0f0; /* Light hover effect */
-  color: #333; /* Consistent text color */
+  background-color: #f0f0f0; 
+  color: #333;
 }
 
 .filter-options li {
-  transition: background-color 0.3s ease; /* Smoother transitions */
+  transition: background-color 0.3s ease;
 }
 
 .filter-options li:hover {
-  background-color: #f0f0f0; /* Light hover effect */
+  background-color: #f0f0f0; 
 }
 
-/* Responsive Design Adjustments */
+
 @media (max-width: 768px) {
   .searchbar {
     flex-direction: column;
-    width: 90%; /* Adjust width for smaller screens */
+    width: 90%; 
   }
 
   .searchbar input {
-    width: 50%; /* Adjust width for smaller screens */
+    width: 50%;
     font-size: 16px;
   }
 
@@ -368,26 +365,26 @@ body {
   }
 
   .filter-menu {
-    top: auto; /* Adjust based on search bar height */
+    top: auto; 
   }
 
   .container {
     width: 70%;
-    padding-top: 70px; /* Adjust padding for smaller screens */
+    padding-top: 70px;
   }
 
   .character {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusted grid for smaller screens */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
   }
 
   .modal-content {
-    max-width: 90%; /* Adjusted max-width for smaller screens */
+    max-width: 90%; 
   }
 }
 
 @media (max-width: 480px) {
   .searchbar {
-    width: 70%; /* Full width for very small screens */
+    width: 70%; 
     flex-direction: column;
     gap: 10px;
   }
@@ -404,20 +401,20 @@ body {
 
   .container {
     width: 70%;
-    padding-top: 120px; /* Adjust padding for very small screens */
+    padding-top: 120px;
   }
 
   .filter-menu {
-    top: 0; /* Adjust based on search bar height */
+    top: 0; 
   }
 
   .character {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjusted grid for very small screens */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
   
 
   .modal-content {
-    padding: 20px; /* Adjusted padding */
+    padding: 20px; 
   }
 }
 
