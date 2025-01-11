@@ -51,7 +51,7 @@ const Main = () => {
     <>
         <div className={isDarkMode ? 'dark-mode' : 'light-mode'} style={{ zIndex: 1 }}>
             <ThemeToggle isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
-            <div className="container">
+            <div className="container" style={{backgroundColor: isDarkMode ? '#1a1a1a' : '#f9f9f9'}}>
                 <div className="searchbar">
                     <input
                         type="text"

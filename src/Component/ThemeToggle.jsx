@@ -6,11 +6,11 @@ const ThemeToggle = ({ isDarkMode, toggleTheme }) => {
             onClick={toggleTheme}
             style={{
                 position: 'fixed',
-                top: '20px',
-                right: '20px',
+                top: '0px',
+                right: '0px',
                 padding: '10px',
-                borderRadius: '5px',
-                border: 'none',
+                borderRadius: '10px',
+                border: '1px solid #ccc',
                 cursor: 'pointer',
                 backgroundColor: isDarkMode ? '#333' : '#fff',
                 color: isDarkMode ? '#fff' : '#333',
