@@ -3,7 +3,7 @@ import Card from './Card';
 import useFetchData from './useFetchData';
 import useFilter from './useFilter';
 import ThemeToggle from './ThemeToggle';
-import FilterMenu from './Filtermenu';
+import FilterMenu from './FilterMenu';
 
 const Main = () => {
     const { data, fetchData } = useFetchData();

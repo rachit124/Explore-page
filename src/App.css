@@ -365,7 +365,7 @@ body {
   }
 
   .filter-menu {
-    top: auto; 
+    top: 0; 
   }
 
   .container {
